@@ -1,12 +1,67 @@
-# React + Vite
+# Spring Travels
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend web application for **Spring Travels** built using [Vite](https://vitejs.dev/) — a fast, modern build tool.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fast development server with hot module replacement (HMR)
+- Optimized production build
+- Easy configuration and minimal setup
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (version 14 or above)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+Navigate into the project folder:
+
+bash
+Copy
+Edit
+cd <your-project-folder>
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+Development
+Start the development server with hot reload:
+
+bash
+Copy
+Edit
+npm run dev
+# or
+yarn dev
+Open your browser at http://localhost:5173 (default port) to view the app.
+
+Build
+Create an optimized production build:
+
+bash
+Copy
+Edit
+npm run build
+# or
+yarn build
+The build output will be in the dist folder.
+
+Preview
+Preview the production build locally:
+
+bash
+Copy
+Edit
+npm run preview
+# or
+yarn preview
